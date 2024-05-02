@@ -4,7 +4,7 @@
 } */
 
 :root {
-    --border: 10px ridge rgba(11, 135, 167, 0.788);
+    --border: 10px ridge rgba(32, 188, 250, 0.788);
     --borderGap: 5px;
 
 
@@ -19,6 +19,7 @@ header{
     text-align: right;
     padding: 5px;
     border-bottom: var(--border);
+    
 }
 /* this does the main under the header */
 main {
@@ -88,4 +89,4 @@ main section form  {
     background-color: black;
     color: white;
 
-}```
+}
