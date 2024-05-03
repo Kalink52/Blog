@@ -1,3 +1,7 @@
+// this js deals i intended to have to deal with most logic,
+// but it ended up mostly dealing with light mode/dark mode
+
+
 const themeSwitcher = document.querySelector('#darkMode')
 const container = document.querySelector('.container');
 // console.log(container)
