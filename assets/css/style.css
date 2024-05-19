@@ -83,8 +83,13 @@ main section form  {
 
 /* find better way to do this XDDDDD */
 #userContent {
-    height: 10vw ;
-    /* padding-bottom: 10%; */
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    border: 0;
+    padding: 0;
+
 }
 
 
