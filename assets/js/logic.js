@@ -16,7 +16,7 @@ if (mode == null || mode == 'dark'){
 } else {
   mode = 'light';
       container.setAttribute('class', 'light');
-}
+}``
 
 // Listen for a click event on toggle switch , coppied from hw page
 // and addapted to make work

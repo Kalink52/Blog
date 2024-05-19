@@ -13,7 +13,11 @@ const addForm = document.querySelector('#formSubmit');
 // console.log(postsArray)
 
 addForm.addEventListener('click', function () {
-
+    event.preventDefault();
+    if (userName.value == "" || userTitle.value == "" || userContent.value == "" ) {
+        alert(`Please fill out rest of the form`)
+        return; 
+    }
 
     //trys and get local storage array
     let postsArray =  [localStorage.getItem('postsArray')]
@@ -28,7 +32,6 @@ addForm.addEventListener('click', function () {
     }
 
     //don't know if i need this
-    event.preventDefault();
 
     // creating object and fill with user data
     const postObject = {
