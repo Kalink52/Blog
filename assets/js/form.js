@@ -33,7 +33,7 @@ addForm.addEventListener('click', function () {
     // creating object and fill with user data
     const postObject = {
         // postNumber: ,
-        username: userName.value,
+        userName: userName.value,
         userTitle: userTitle.value,
         userContent: userContent.value
     }

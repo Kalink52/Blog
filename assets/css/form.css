@@ -1,13 +1,16 @@
 section {
     margin: 1%;
-    border: 2px solid white;
+    border: 2px solid;
+}
+section p {
+    word-break: break-all; 
 }
 
 
 
 
 .title {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid;
     margin: 10px;
     font-weight: bold;
 }
@@ -19,5 +22,5 @@ section {
 .nameUser {
     margin: 10px;
     opacity: 60%;
-    margin: 10px   
+    margin: 10px;
 }
